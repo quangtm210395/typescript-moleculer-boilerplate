@@ -1,4 +1,3 @@
-
 import { ServiceSchema } from 'moleculer';
 
 const GreeterService: ServiceSchema = {
