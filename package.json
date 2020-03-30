@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Next Solutions microservices project",
   "scripts": {
-    "dev": "node --inspect=0.0.0.0:9227 -r ts-node/register ./node_modules/moleculer/bin/moleculer-runner.js --env --hot --repl --config moleculer.config.ts services/*.service.ts",
+    "dev": "node --inspect=0.0.0.0:9227 -r ts-node/register ./node_modules/moleculer/bin/moleculer-runner.js --env --hot --repl --config moleculer.config.ts src/services/*.service.ts",
     "build": "tsc",
     "cli": "moleculer connect NATS",
-    "start": "moleculer-runner services",
+    "start": "moleculer-runner src/services",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "lint-fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./"
   },
