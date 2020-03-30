@@ -1,6 +1,6 @@
 import { ServiceSchema } from 'moleculer';
 
-const ApplicationService: ServiceSchema = {
+const GreeterService: ServiceSchema = {
   name: 'greeter',
   settings: {
 
@@ -35,4 +35,4 @@ const ApplicationService: ServiceSchema = {
   },
 };
 
-export = ApplicationService;
+export = GreeterService;
